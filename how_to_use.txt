@@ -1,0 +1,35 @@
+first of all :
+    check that these file in the folder:
+         --> (session.csv) file for session attendance
+         --> (support doc.xlsx) file to update data
+         --> (links.txt) file for sheets group and contest group links
+         --> (handles.txt) file for handles 
+         --> (names.txt) file for Teams names
+
+Then: 
+
+first step:
+write handles one by one line by line in handles.txt file
+
+second step:
+write Teams names one by one line by line in names.txt file
+
+third step:
+write in (links.txt) file sheets group link and contests group link as follow:
+sheets group link
+contests group link
+
+last step:
+got to (input.txt) file and write the following information with this format:
+
+login information                                                                                         -->handle and password separated by space
+for any number of times you can do the following:
+1- write "sheet" if you want to get number of solved problems for each handle by week number              -->sheet number_of_problems_in_sheet number_of_sheet separated by space
+2- write "contest" if you want to get contest attendance for each handle                                  -->contest number_of_contest separated by space
+3- write "session" if you want to get session attendance for each name                                    -->session number_of_session separated by space
+
+ex:
+ahmed_ali password123
+sheet 26 5
+contest 3
+session 2
